@@ -31,6 +31,119 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+
+nav {
+    display: flex;
+    flex-wrap: nowrap;
+	color: black;
+	font-size: 1em;
+	justify-content: space-evenly;
+	position: relative;
+	margin-right: 80px;
+}
+ 
+nav .logo {
+	position: absolute;
+	top: 0;
+    left: 0;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+/* NAV LINKS */
+nav a {
+	color: black;
+	font-size: 1em;
+    text-decoration: none;
+    font-weight: bold;
+	align-content: space-around;
+	margin: 2em -100px 20px 100px;
+	padding: 10px;
+}
+
+.header_img {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.header_img img {
+    object-fit: cover;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.aheader_img {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+.aheader_img img {
+    object-fit: cover;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.about_container {
+
+}
+
+.ptitle {
+    font-weight: normal;
+    margin-left: 150px;
+}
+
+.pcontent {
+    font-weight: normal;
+    text-align: justify;
+    margin: 20px 150px 20px 150px;
+}
+
+.top_pics {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.top_pics img {
+    margin: 0px 10px 10px 10px;
+}
+    
+
+.top_text {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 180px;
+}
+
+
+.bottom_img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bottom_img img {
+    margin: 0px 10px 10px 10px;
+}
+
+.bottom_txt {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 180px;
+}
+
+.bottom_txt p {
+  
+}
+
+.together p {
+    font-weight: normal;
+    text-align: justify;
+    margin: 20px 150px 20px 150px;
+}
+
 ol, ul {
 	list-style: none;
 }
@@ -112,6 +225,49 @@ p {
     justify-content: center;
 }
 
+.boxes .box:nth-child(1) {
+    background-color: teal;
+    }
+
+    .boxes .box:nth-child(2) {
+        background-color: gold;
+        }
+           
+        .boxes .box:nth-child(3) {
+            background-color: cadetblue;
+            }
+
+            .boxes .box:nth-child(4) {
+                background-color: coral;
+                }
+                
+                .boxes .box:nth-child(5) {
+                    background-color: crimson;
+                    }
+
+                    .boxes .box:nth-child(6) {
+                        background-color: forestgreen;
+                        }
+                        .boxes .box:nth-child(7) {
+                            background-color: darkorchid;
+                            }
+                            .boxes .box:nth-child(8) {
+                                background-color: hotpink;
+                                }
+                                .boxes .box:nth-child(9) {
+                                    background-color: indigo;
+
+                                }
+                                    
+                                   
+.boxes .box:last-child {
+    background-color: dodgerblue;
+}
+                                    
+                                
+                                                    
+
+                                                                                                                                                                                
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
